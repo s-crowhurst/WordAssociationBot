@@ -44,7 +44,7 @@ class WordAssociationBot(Bot):
 
 WordAssBot = WordAssociationBot(channel=1099739317917712474,
                                 guild=1099378991753871430,
-                                token="MTA5OTgyNzQwOTE1MjM5NzQ3Mg.Gj7RX_.R-zRpj__Rx_wIWKP03ARC97dEmsjSPQtTOpJZc"
+                                token= os.environ['BOT_TOKEN']
                                 )
 
 def Choose_New_Player():
